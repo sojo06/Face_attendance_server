@@ -39,3 +39,7 @@ export const sendData =  async (req, res) => {
       console.log(error);
     }
   };
+
+export const hellofunction = (req,res)=>{
+  res.send("Hello from server");
+}
