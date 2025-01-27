@@ -41,5 +41,5 @@ export const sendData =  async (req, res) => {
   };
 
 export const hellofunction = (req,res)=>{
-  res.send("Hello from server");
+  res.send("<h1>Hello from server</h1>");
 }
