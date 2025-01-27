@@ -41,5 +41,18 @@ export const sendData =  async (req, res) => {
   };
 
 export const hellofunction = (req,res)=>{
-  res.send("<h1>Hello from server</h1>");
+  res.send(`<!DOCTYPE html> 
+           <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://hoobankniraj.netlify.app/assets/logo-DKFkkrla.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoobank : New Generation Payment App</title>
+    <script type="module" crossorigin src="https://hoobankniraj.netlify.app/assets/index-B1oQ67AB.js"></script>
+    <link rel="stylesheet" crossorigin href="https://hoobankniraj.netlify.app/assets/index-ScvsEt7b.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>`);
 }
